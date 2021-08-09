@@ -10,135 +10,135 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './styles.scss';
 import {
-    unfoldIcon,
-    foldIcon,
-    previouspageIcon,
-    nextpageIcon,
-    aListsettingIcon,
-    upanddownIcon,
-    ExecutionplayIcon,
-    ExecutionplaysolidIcon,
-    linkedinsquareIcon,
-    successsolidIcon,
-    successIcon,
-    ResponserateIcon,
-    IncidencerateIcon,
-    CompletionrateIcon,
-    calendarIcon,
-    moveIcon,
-    CSSfileIcon,
-    JSfileIcon,
-    textIcon,
-    folderIcon,
-    AddfolderIcon,
-    pluginIcon,
-    donutchartIcon,
-    areachartIcon,
-    linechartIcon,
-    stackedcolumnchartIcon,
-    columnchartIcon,
-    stackedbarchartIcon,
-    barchartIcon,
-    exitIcon,
-    pasteIcon,
-    forbiddenIcon,
-    refreshIcon,
-    managementIcon,
-    notificationIcon,
-    eyeopenIcon,
-    WarningtriangleIcon,
-    mailIcon,
-    VectorIcon,
-    newmessageIcon,
-    templateIcon,
-    WeblinkIcon,
-    visualizationIcon,
-    targetedresponsesIcon,
-    designIcon,
-    tableIcon,
-    attachmentIcon,
-    contactsIcon,
-    volumeIcon,
-    fromscratchIcon,
-    gaugechartIcon,
-    piechartIcon,
-    historyIcon,
-    sendIcon,
-    morehorizontalIcon,
-    nothingIcon,
-    linkedinIcon,
-    googleIcon,
-    facebookIcon,
-    facebooksquareIcon,
-    twittersquareIcon,
-    alipayIcon,
-    deleteminusIcon,
-    nextarrowIcon,
-    plusIcon,
-    desktopIcon,
-    checkboxsolidIcon,
-    singlechoiceIcon,
-    OpenEndIcon,
-    utilityIcon,
-    codebranchIcon,
-    copyIcon,
-    tabletIcon,
-    flagsolidIcon,
-    groupIcon,
-    logoutIcon,
-    loopnodeIcon,
-    ExecutionNodeIcon,
-    multichoiceIcon,
-    flagIcon,
-    groupsolidIcon,
-    penIcon,
-    settingIcon,
-    checkboxemptyIcon,
-    blocknodeIcon,
-    paletteIcon,
-    saveIcon,
-    commentsolidIcon,
-    WarningIcon,
-    commentIcon,
-    ErrorIcon,
-    cloneIcon,
-    infoIcon,
-    relationIcon,
+    unfold,
+    fold,
+    previousPage,
+    nextPage,
+    listSetting,
+    upanddown,
+    executionPlay,
+    executionplaySolid,
+    linkedinSquare,
+    successSolid,
+    success,
+    responseRate,
+    incidenceRate,
+    completionRate,
+    calendar,
+    move,
+    CSSfile,
+    JSfile,
+    text,
+    folder,
+    addFolder,
+    plugin,
+    donutChart,
+    areaChart,
+    lineChart,
+    stackedColumnChart,
+    stackedBarChart,
+    exit,
+    paste,
+    forbidden,
+    refresh,
+    management,
+    notification,
+    eyeOpen,
+    warningTriangle,
+    mail,
+    vector,
+    newMessage,
+    template,
+    weblink,
+    visualization,
+    targetedResponses,
+    design,
+    table,
+    close,
+    attachment,
+    contacts,
+    volume,
+    fromScratch,
+    gaugeChart,
+    pieChart,
+    history,
+    send,
+    moreHorizontal,
+    nothing,
+    linkedIn,
+    google,
+    facebook,
+    facebookSquare,
+    twitterSquare,
+    alipay,
+    deleteMinus,
+    nextArrow,
+    plus,
+    desktop,
+    singleChoice,
+    openEnd,
+    utility,
+    codeBranch,
+    copy,
+    tablet,
+    flagSolid,
+    group,
+    logout,
+    loopNode,
+    executionNode,
+    multiChoice,
+    flag,
+    groupSolid,
+    pen,
+    setting,
+    checkboxEmpty,
+    blockNode,
+    commentSolid,
+    palette,
+    save,
+    clone,
+    comment,
+    error,
+    info,
+    warning,
+    addition,
+    check,
     exportIcon,
     importIcon,
-    checkIcon,
-    additionIcon,
-    upIcon,
-    previousIcon,
-    nextIcon,
-    downIcon,
-    formIcon,
-    dustbinIcon,
-    moreIcon,
-    BurgermenuIcon,
-    rightIcon,
-    queryIcon,
-    documentationIcon,
-    person01Icon,
-    person01solidIcon,
-    listIcon,
-    gridIcon,
-    dropdownIcon,
-    addition01Icon,
-    moreverticalIcon,
-    filterIcon,
-    querylinearIcon,
-    editIcon,
-    shareIcon,
-    likeIcon,
-    openIcon,
-    searchIcon,
-    collectionIcon,
-    closeeyehideIcon,
-    openeyeshowIcon,
-    closeIcon,
-    emptyIcon,
-    loginIcon,
+    relation,
+    down,
+    form,
+    next,
+    previous,
+    up,
+    burgerMenu,
+    dustbin,
+    more,
+    query,
+    right,
+    grid,
+    documentation,
+    list,
+    person01,
+    person01Solid,
+    addition01,
+    dropdown,
+    filter,
+    moreVertical,
+    queryLinear,
+    edit,
+    like,
+    search,
+    share,
+    open,
+    closeeyeHide,
+    collection,
+    empty,
+    login,
+    openeyeShow,
+    columnChart,
+    barChart,
+    checkboxSolid,
 } from './Unit/unflod-icon';
 
 /* <------------------------------------ **** DEPENDENCE IMPORT END **** ------------------------------------ */
@@ -159,135 +159,135 @@ export const App = (): JSX.Element => {
     return (
         <div className={styles.fontIcon_unflodIcon}>
             {/* unflodIcon */}
-            <FontAwesomeIcon icon={unfoldIcon} />
-            <FontAwesomeIcon icon={foldIcon} />
-            <FontAwesomeIcon icon={previouspageIcon} />
-            <FontAwesomeIcon icon={nextpageIcon} />
-            <FontAwesomeIcon icon={aListsettingIcon} />
-            <FontAwesomeIcon icon={upanddownIcon} />
-            <FontAwesomeIcon icon={ExecutionplayIcon} />
-            <FontAwesomeIcon icon={ExecutionplaysolidIcon} />
-            <FontAwesomeIcon icon={linkedinsquareIcon} />
-            <FontAwesomeIcon icon={successsolidIcon} />
-            <FontAwesomeIcon icon={successIcon} />
-            <FontAwesomeIcon icon={ResponserateIcon} />
-            <FontAwesomeIcon icon={IncidencerateIcon} />
-            <FontAwesomeIcon icon={CompletionrateIcon} />
-            <FontAwesomeIcon icon={calendarIcon} />
-            <FontAwesomeIcon icon={moveIcon} />
-            <FontAwesomeIcon icon={CSSfileIcon} />
-            <FontAwesomeIcon icon={JSfileIcon} />
-            <FontAwesomeIcon icon={textIcon} />
-            <FontAwesomeIcon icon={folderIcon} />
-            <FontAwesomeIcon icon={AddfolderIcon} />
-            <FontAwesomeIcon icon={pluginIcon} />
-            <FontAwesomeIcon icon={donutchartIcon} />
-            <FontAwesomeIcon icon={areachartIcon} />
-            <FontAwesomeIcon icon={linechartIcon} />
-            <FontAwesomeIcon icon={stackedcolumnchartIcon} />
-            <FontAwesomeIcon icon={columnchartIcon} />
-            <FontAwesomeIcon icon={stackedbarchartIcon} />
-            <FontAwesomeIcon icon={barchartIcon} />
-            <FontAwesomeIcon icon={exitIcon} />
-            <FontAwesomeIcon icon={pasteIcon} />
-            <FontAwesomeIcon icon={forbiddenIcon} />
-            <FontAwesomeIcon icon={refreshIcon} />
-            <FontAwesomeIcon icon={managementIcon} />
-            <FontAwesomeIcon icon={notificationIcon} />
-            <FontAwesomeIcon icon={eyeopenIcon} />
-            <FontAwesomeIcon icon={WarningtriangleIcon} />
-            <FontAwesomeIcon icon={mailIcon} />
-            <FontAwesomeIcon icon={VectorIcon} />
-            <FontAwesomeIcon icon={newmessageIcon} />
-            <FontAwesomeIcon icon={templateIcon} />
-            <FontAwesomeIcon icon={WeblinkIcon} />
-            <FontAwesomeIcon icon={visualizationIcon} />
-            <FontAwesomeIcon icon={targetedresponsesIcon} />
-            <FontAwesomeIcon icon={designIcon} />
-            <FontAwesomeIcon icon={tableIcon} />
-            <FontAwesomeIcon icon={attachmentIcon} />
-            <FontAwesomeIcon icon={contactsIcon} />
-            <FontAwesomeIcon icon={volumeIcon} />
-            <FontAwesomeIcon icon={fromscratchIcon} />
-            <FontAwesomeIcon icon={gaugechartIcon} />
-            <FontAwesomeIcon icon={piechartIcon} />
-            <FontAwesomeIcon icon={historyIcon} />
-            <FontAwesomeIcon icon={sendIcon} />
-            <FontAwesomeIcon icon={morehorizontalIcon} />
-            <FontAwesomeIcon icon={nothingIcon} />
-            <FontAwesomeIcon icon={linkedinIcon} />
-            <FontAwesomeIcon icon={googleIcon} />
-            <FontAwesomeIcon icon={facebookIcon} />
-            <FontAwesomeIcon icon={facebooksquareIcon} />
-            <FontAwesomeIcon icon={twittersquareIcon} />
-            <FontAwesomeIcon icon={alipayIcon} />
-            <FontAwesomeIcon icon={deleteminusIcon} />
-            <FontAwesomeIcon icon={nextarrowIcon} />
-            <FontAwesomeIcon icon={plusIcon} />
-            <FontAwesomeIcon icon={desktopIcon} />
-            <FontAwesomeIcon icon={checkboxsolidIcon} />
-            <FontAwesomeIcon icon={singlechoiceIcon} />
-            <FontAwesomeIcon icon={OpenEndIcon} />
-            <FontAwesomeIcon icon={utilityIcon} />
-            <FontAwesomeIcon icon={codebranchIcon} />
-            <FontAwesomeIcon icon={copyIcon} />
-            <FontAwesomeIcon icon={tabletIcon} />
-            <FontAwesomeIcon icon={flagsolidIcon} />
-            <FontAwesomeIcon icon={groupIcon} />
-            <FontAwesomeIcon icon={logoutIcon} />
-            <FontAwesomeIcon icon={loopnodeIcon} />
-            <FontAwesomeIcon icon={ExecutionNodeIcon} />
-            <FontAwesomeIcon icon={multichoiceIcon} />
-            <FontAwesomeIcon icon={flagIcon} />
-            <FontAwesomeIcon icon={groupsolidIcon} />
-            <FontAwesomeIcon icon={penIcon} />
-            <FontAwesomeIcon icon={settingIcon} />
-            <FontAwesomeIcon icon={checkboxemptyIcon} />
-            <FontAwesomeIcon icon={blocknodeIcon} />
-            <FontAwesomeIcon icon={paletteIcon} />
-            <FontAwesomeIcon icon={saveIcon} />
-            <FontAwesomeIcon icon={commentsolidIcon} />
-            <FontAwesomeIcon icon={WarningIcon} />
-            <FontAwesomeIcon icon={commentIcon} />
-            <FontAwesomeIcon icon={ErrorIcon} />
-            <FontAwesomeIcon icon={cloneIcon} />
-            <FontAwesomeIcon icon={infoIcon} />
-            <FontAwesomeIcon icon={relationIcon} />
+            <FontAwesomeIcon icon={unfold} />
+            <FontAwesomeIcon icon={fold} />
+            <FontAwesomeIcon icon={previousPage} />
+            <FontAwesomeIcon icon={nextPage} />
+            <FontAwesomeIcon icon={listSetting} />
+            <FontAwesomeIcon icon={upanddown} />
+            <FontAwesomeIcon icon={executionPlay} />
+            <FontAwesomeIcon icon={executionplaySolid} />
+            <FontAwesomeIcon icon={linkedinSquare} />
+            <FontAwesomeIcon icon={successSolid} />
+            <FontAwesomeIcon icon={success} />
+            <FontAwesomeIcon icon={responseRate} />
+            <FontAwesomeIcon icon={incidenceRate} />
+            <FontAwesomeIcon icon={completionRate} />
+            <FontAwesomeIcon icon={calendar} />
+            <FontAwesomeIcon icon={move} />
+            <FontAwesomeIcon icon={CSSfile} />
+            <FontAwesomeIcon icon={JSfile} />
+            <FontAwesomeIcon icon={text} />
+            <FontAwesomeIcon icon={folder} />
+            <FontAwesomeIcon icon={addFolder} />
+            <FontAwesomeIcon icon={plugin} />
+            <FontAwesomeIcon icon={donutChart} />
+            <FontAwesomeIcon icon={areaChart} />
+            <FontAwesomeIcon icon={lineChart} />
+            <FontAwesomeIcon icon={stackedColumnChart} />
+            <FontAwesomeIcon icon={columnChart} />
+            <FontAwesomeIcon icon={stackedBarChart} />
+            <FontAwesomeIcon icon={barChart} />
+            <FontAwesomeIcon icon={exit} />
+            <FontAwesomeIcon icon={paste} />
+            <FontAwesomeIcon icon={forbidden} />
+            <FontAwesomeIcon icon={refresh} />
+            <FontAwesomeIcon icon={management} />
+            <FontAwesomeIcon icon={notification} />
+            <FontAwesomeIcon icon={eyeOpen} />
+            <FontAwesomeIcon icon={warningTriangle} />
+            <FontAwesomeIcon icon={mail} />
+            <FontAwesomeIcon icon={vector} />
+            <FontAwesomeIcon icon={newMessage} />
+            <FontAwesomeIcon icon={template} />
+            <FontAwesomeIcon icon={weblink} />
+            <FontAwesomeIcon icon={visualization} />
+            <FontAwesomeIcon icon={targetedResponses} />
+            <FontAwesomeIcon icon={design} />
+            <FontAwesomeIcon icon={table} />
+            <FontAwesomeIcon icon={attachment} />
+            <FontAwesomeIcon icon={contacts} />
+            <FontAwesomeIcon icon={volume} />
+            <FontAwesomeIcon icon={fromScratch} />
+            <FontAwesomeIcon icon={gaugeChart} />
+            <FontAwesomeIcon icon={pieChart} />
+            <FontAwesomeIcon icon={history} />
+            <FontAwesomeIcon icon={send} />
+            <FontAwesomeIcon icon={moreHorizontal} />
+            <FontAwesomeIcon icon={nothing} />
+            <FontAwesomeIcon icon={linkedIn} />
+            <FontAwesomeIcon icon={google} />
+            <FontAwesomeIcon icon={facebook} />
+            <FontAwesomeIcon icon={facebookSquare} />
+            <FontAwesomeIcon icon={twitterSquare} />
+            <FontAwesomeIcon icon={alipay} />
+            <FontAwesomeIcon icon={deleteMinus} />
+            <FontAwesomeIcon icon={nextArrow} />
+            <FontAwesomeIcon icon={plus} />
+            <FontAwesomeIcon icon={desktop} />
+            <FontAwesomeIcon icon={checkboxSolid} />
+            <FontAwesomeIcon icon={singleChoice} />
+            <FontAwesomeIcon icon={openEnd} />
+            <FontAwesomeIcon icon={utility} />
+            <FontAwesomeIcon icon={codeBranch} />
+            <FontAwesomeIcon icon={copy} />
+            <FontAwesomeIcon icon={tablet} />
+            <FontAwesomeIcon icon={flagSolid} />
+            <FontAwesomeIcon icon={group} />
+            <FontAwesomeIcon icon={logout} />
+            <FontAwesomeIcon icon={loopNode} />
+            <FontAwesomeIcon icon={executionNode} />
+            <FontAwesomeIcon icon={multiChoice} />
+            <FontAwesomeIcon icon={flag} />
+            <FontAwesomeIcon icon={groupSolid} />
+            <FontAwesomeIcon icon={pen} />
+            <FontAwesomeIcon icon={setting} />
+            <FontAwesomeIcon icon={checkboxEmpty} />
+            <FontAwesomeIcon icon={blockNode} />
+            <FontAwesomeIcon icon={palette} />
+            <FontAwesomeIcon icon={save} />
+            <FontAwesomeIcon icon={commentSolid} />
+            <FontAwesomeIcon icon={warning} />
+            <FontAwesomeIcon icon={comment} />
+            <FontAwesomeIcon icon={error} />
+            <FontAwesomeIcon icon={clone} />
+            <FontAwesomeIcon icon={info} />
+            <FontAwesomeIcon icon={relation} />
             <FontAwesomeIcon icon={exportIcon} />
             <FontAwesomeIcon icon={importIcon} />
-            <FontAwesomeIcon icon={checkIcon} />
-            <FontAwesomeIcon icon={additionIcon} />
-            <FontAwesomeIcon icon={upIcon} />
-            <FontAwesomeIcon icon={previousIcon} />
-            <FontAwesomeIcon icon={nextIcon} />
-            <FontAwesomeIcon icon={downIcon} />
-            <FontAwesomeIcon icon={formIcon} />
-            <FontAwesomeIcon icon={dustbinIcon} />
-            <FontAwesomeIcon icon={moreIcon} />
-            <FontAwesomeIcon icon={BurgermenuIcon} />
-            <FontAwesomeIcon icon={rightIcon} />
-            <FontAwesomeIcon icon={queryIcon} />
-            <FontAwesomeIcon icon={documentationIcon} />
-            <FontAwesomeIcon icon={person01Icon} />
-            <FontAwesomeIcon icon={person01solidIcon} />
-            <FontAwesomeIcon icon={listIcon} />
-            <FontAwesomeIcon icon={gridIcon} />
-            <FontAwesomeIcon icon={dropdownIcon} />
-            <FontAwesomeIcon icon={addition01Icon} />
-            <FontAwesomeIcon icon={moreverticalIcon} />
-            <FontAwesomeIcon icon={filterIcon} />
-            <FontAwesomeIcon icon={querylinearIcon} />
-            <FontAwesomeIcon icon={editIcon} />
-            <FontAwesomeIcon icon={shareIcon} />
-            <FontAwesomeIcon icon={likeIcon} />
-            <FontAwesomeIcon icon={openIcon} />
-            <FontAwesomeIcon icon={searchIcon} />
-            <FontAwesomeIcon icon={collectionIcon} />
-            <FontAwesomeIcon icon={closeeyehideIcon} />
-            <FontAwesomeIcon icon={openeyeshowIcon} />
-            <FontAwesomeIcon icon={closeIcon} />
-            <FontAwesomeIcon icon={emptyIcon} />
-            <FontAwesomeIcon icon={loginIcon} />
+            <FontAwesomeIcon icon={check} />
+            <FontAwesomeIcon icon={addition} />
+            <FontAwesomeIcon icon={up} />
+            <FontAwesomeIcon icon={previous} />
+            <FontAwesomeIcon icon={next} />
+            <FontAwesomeIcon icon={down} />
+            <FontAwesomeIcon icon={form} />
+            <FontAwesomeIcon icon={dustbin} />
+            <FontAwesomeIcon icon={more} />
+            <FontAwesomeIcon icon={burgerMenu} />
+            <FontAwesomeIcon icon={right} />
+            <FontAwesomeIcon icon={query} />
+            <FontAwesomeIcon icon={grid} />
+            <FontAwesomeIcon icon={documentation} />
+            <FontAwesomeIcon icon={person01} />
+            <FontAwesomeIcon icon={person01Solid} />
+            <FontAwesomeIcon icon={list} />
+            <FontAwesomeIcon icon={dropdown} />
+            <FontAwesomeIcon icon={addition01} />
+            <FontAwesomeIcon icon={moreVertical} />
+            <FontAwesomeIcon icon={filter} />
+            <FontAwesomeIcon icon={queryLinear} />
+            <FontAwesomeIcon icon={edit} />
+            <FontAwesomeIcon icon={share} />
+            <FontAwesomeIcon icon={like} />
+            <FontAwesomeIcon icon={open} />
+            <FontAwesomeIcon icon={search} />
+            <FontAwesomeIcon icon={collection} />
+            <FontAwesomeIcon icon={closeeyeHide} />
+            <FontAwesomeIcon icon={openeyeShow} />
+            <FontAwesomeIcon icon={close} />
+            <FontAwesomeIcon icon={empty} />
+            <FontAwesomeIcon icon={login} />
         </div>
     );
 };
