@@ -196,6 +196,10 @@ export const App = (): JSX.Element => {
             <FontAwesomeIcon icon={notification} />
             <FontAwesomeIcon icon={eyeOpen} />
             <FontAwesomeIcon icon={warningTriangle} />
+            <FontAwesomeIcon icon={warningTriangle} />
+            <FontAwesomeIcon icon={warningTriangle} />
+            <FontAwesomeIcon icon={warningTriangle} />
+            <FontAwesomeIcon icon={warningTriangle} />
             <FontAwesomeIcon icon={mail} />
             <FontAwesomeIcon icon={vector} />
             <FontAwesomeIcon icon={newMessage} />
